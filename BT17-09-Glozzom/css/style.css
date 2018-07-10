@@ -1,0 +1,71 @@
+.navbar .nav-link {
+  font-size: 0.875rem;
+  padding: 0 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: 3px solid #888;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-item img {
+  width: 100%;
+}
+
+#home-heading {
+  min-height: 200px;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/glozzom/lights.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#video {
+  min-height: 200px;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/glozzom/media.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#hdr {
+  height: 200px;
+  background: url('../img/glozzom/image1.jpg');
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: white;
+  border-bottom: 1px solid #eee;
+}
+
+.about-img {
+  margin-top: -90px;
+  float: right;
+}
+
+#faq .card {
+  border: #666;
+}
+
+#faq a {
+  color: white;
+  text-decoration: none;
+}
+
+#faq .card-header {
+  background: #666;
+}
+
+#faq .card-body {
+  background: #333;
+}
+
+#contact {
+  background: lightcyan;
+}
+
+textarea {
+  resize: none;
+}

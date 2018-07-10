@@ -1,0 +1,45 @@
+.container {
+  box-shadow: 10px 10px 10px #888; }
+
+p.row1 {
+  font-size: 1.5rem; }
+
+p.row2 {
+  font-size: 1rem; }
+
+@media screen and (min-width: 576px) {
+  p.row1 {
+    font-size: 2rem; }
+
+  p.row2 {
+    font-size: 1.5rem; } }
+@media screen and (min-width: 768px) {
+  p.row1 {
+    font-size: 2.5rem; }
+
+  p.row2 {
+    font-size: 1.5rem; } }
+@media screen and (min-width: 992px) {
+  p.row1 {
+    font-size: 3rem; }
+
+  p.row2 {
+    font-size: 1.8rem; } }
+@media screen and (min-width: 1200px) {
+  p.row1 {
+    font-size: 3.5rem; }
+
+  p.row2 {
+    font-size: 2.2rem; }
+
+  .bg-black {
+    height: 122px; } }
+.bg-black {
+  color: white;
+  background: black; }
+
+#main-header .port-item {
+  width: 25%; }
+
+#main-header .port-item {
+  cursor: pointer; }
